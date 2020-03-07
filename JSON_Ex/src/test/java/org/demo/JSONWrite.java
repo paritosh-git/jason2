@@ -18,8 +18,8 @@ public class JSONWrite {
         JSONObject jo = new JSONObject(); 
           
         // putting data to JSONObject 
-        jo.put("firstName", "JavaByKiran"); 
-        jo.put("lastName", "JBK"); 
+        jo.put("firstName", "Paritosh"); 
+        jo.put("lastName", "Patil"); 
         jo.put("age", 25); 
           
         // for address data, first create LinkedHashMap 
