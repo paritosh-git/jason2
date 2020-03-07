@@ -2,10 +2,12 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Parameterization Test Suite">
       <test name="Test JSONReadTest">
+         <test name="Test JSONWrite.java">
       <class name="org.demo.JSONReadTest"/>
-
+      <class name="org.demo.JSONWrite"/>
             <classes>
                 <class name="TestNGTest.JSONReadTest" />
+                <class name="TestNGTest.JSONWrite" />
             </classes>
   </test> <!-- Test -->
 </suite> 
