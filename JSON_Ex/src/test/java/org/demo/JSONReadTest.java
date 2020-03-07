@@ -45,7 +45,7 @@ public class JSONReadTest {
         } 
           
         // getting phoneNumbers 
-        JSONArray ja = (JSONArray) jo.get("phoneNumbers"); 
+        JSONArray ja = (JSONArray) jo.get("phoneNumber"); 
           
         // iterating phoneNumbers 
         Iterator itr2 =  ja.iterator(); 
